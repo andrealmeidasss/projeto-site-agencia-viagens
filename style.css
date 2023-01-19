@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+nav {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+}
+
+nav img {
+  width: 200px;
+}
+
+a {
+  font-family: "Comfortaa", cursive;
+}
+
+.btn {
+  background-color: #0f3a40;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-fluid {
+  background-color: white;
+  color: #0f3a40;
+}
+
+.carousel {
+  padding-bottom: 20px;
+}
+
+.carousel-inner {
+  height: 600px;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+form {
+  padding: 30px;
+}
+
+.row-cols-1 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col-pacotes {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.letras-pequenas {
+  font-size: 10px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.valores {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 30px;
+  background-color: #0000006c;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 500px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card {
+  border: none;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.192);
+}
+
+.rodape {
+  text-align: center;
+  background-color: #0f3a40;
+  font-family: "Comfortaa", cursive;
+  color: white;
+}

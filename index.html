@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajei - Agência de Viagens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://media.istockphoto.com/id/1258141375/pt/vetorial/plane-travel-icon-air-travel-around-the-world-flying-around-the-world-travel-agency-logo.jpg?s=612x612&w=0&k=20&c=jxbM-gi6LrUZUl7d7q0QkJCC0Prb9NXaSWIkO2ahEV4=" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Página Inicial</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Destinos</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Passagem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hospedagem</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Promoções</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pacotes
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Pacotes de Hotéis</a></li>
+            <li><a class="dropdown-item" href="#">Pacotes de Passeios</a></li>
+            <li><a class="dropdown-item" href="#">Pacotes Completos</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Encontre o seu destino" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Cidade_Maravilhosa.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Rio de Janeiro - Rio de Janeiro</h5>
+          
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-gramado-capa2019-04.jpg" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Gramado - Rio Grande do Sul</h5>
+         
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://todepassagem.clickbus.com.br/wp-content/uploads/2020/11/praias-de-florianopolis-to-de-passagem.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Florianópolis - Santa Catarina</h5>
+          
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <form class="row gy-2 gx-3 align-items-center justify-content-center">
+    <div class="col-auto">
+      <!-- <label class="visually-hidden" for="autoSizingInput">Origem</label> -->
+
+      <input type="text" class="form-control" id="autoSizingInput" placeholder="Origem">
+    </div>
+    <div class="col-auto">
+        <!-- <label class="visually-hidden" for="autoSizingInput">Destino</label> -->
+
+        <input type="text" class="form-control" id="autoSizingInput" placeholder="Destino">
+      </div>
+      <div class="col-auto">
+        <!-- <label class="visually-hidden" for="autoSizingInput">Ida</label> -->
+
+        <input type="date" class="form-control" id="autoSizingInput" placeholder="Ida">
+      </div>
+      <div class="col-auto">
+        <!-- <label class="visually-hidden" for="autoSizingInput">Volta</label> -->
+  
+        <input type="date" class="form-control" id="autoSizingInput" placeholder="Ida">
+      </div>
+      <div class="col-auto">
+        <!-- <label class="visually-hidden" for="autoSizingSelect">Preference</label> -->
+       
+        <select class="form-select" id="autoSizingSelect">
+          <option selected>Quarto</option>
+          <option value="1">Solteiro</option>
+          <option value="2">Duplo Solteiro</option>
+          <option value="3">Casal</option>
+          <option value="4">Compartilhado</option>
+        </select>
+      </div>
+    <div class="col-auto">
+      <!-- <label class="visually-hidden" for="autoSizingSelect">Preference</label> -->
+ 
+      <select class="form-select" id="autoSizingSelect">
+        <option selected>Hóspedes</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </div>
+    </div>
+    <div class="col-auto">
+      <br>
+      <button type="submit" class="btn btn-primary">Buscar</button>
+    </div>
+  </form>
+<h3>Destinos mais procurados</h3>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://maisviagens.net.br/wp-content/uploads/2022/01/FLORIPA.jpg" class="card-img-top1" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Florianópolis</h4>
+          <p class="card-text">Conheça a Ilha da Magia de norte a sul. Assim, praias incríveis, lagoas charmosas, fortalezas, mirantes e boa gastronomia compõem seu cenário.</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2016/8/304944/original/rj-cristo-redentor-com-baia-de-guanabara-renato-sette-camara-11.jpg" class="card-img-top1" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Rio de Janeiro</h4>
+          <p class="card-text">Explore a Cidade Maravilhosa, repleta de praias, museus, restaurantes renomados e paisagens incríveis.</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://www.visitbrasil.com/wp-content/uploads/2021/08/Gramado-7.jpg" class="card-img-top1" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Gramado</h4>
+          <p class="card-text">Museus, arquitetura, belas paisagens naturais, boa comida e dezenas de passeios fazem de Gramado a opção mais desejada entre os turistas nessa época do ano.</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <h3>Melhores pacotes de viagem</h3>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col-pacotes">
+      <div class="card h-100">
+        <img src="https://a.cdn-hotels.com/gdcs/production74/d54/79c669d3-5325-4c3f-94d2-e76d7f3fabc4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <h6>Pacote de Viagem - Fortaleza 2023</h6>
+          <p><img src="date.png" alt=""> 6 diárias</p><!--date--> 
+          <p><img src="check.png" alt=""> Hospedagem</p> <!-- check-->
+          <p><img src="check.png" alt=""> Café da Manhã</p><!-- check-->
+          <p><img src="check.png" alt=""> Passagem Aérea</p><!-- check-->
+          <br><br>
+          <p class="valores">R$ 1840,00</p>
+          <p class="letras-pequenas">(até 12x) + taxas</p><!--letras bem pequenas-->
+        </div>
+        
+      </div>
+    </div>
+    <div class="col-pacotes">
+      <div class="card h-100">
+        <img src="https://brasiltravelnews.com.br/wp-content/uploads/2020/08/Piren%C3%B3polis-Foto-divulga%C3%A7%C3%A3o-para-blog-da-Patr%C3%ADcia-Caetano.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <h6>Pacote de Viagem - Pirenópolis 2024</h6>
+          <p><img src="date.png" alt=""> 4 diárias</p><!--date--> 
+          <p><img src="check.png" alt=""> Hospedagem</p> <!-- check-->
+          <p><img src="check.png" alt=""> Café da Manhã</p><!-- check-->
+          <p><img src="check.png" alt=""> Jantar</p><!-- check-->
+          <br><br>
+          <p class="valores">R$ 960,00</p>
+          <p class="letras-pequenas">(até 12x) + taxas</p><!--letras bem pequenas-->
+        </div>
+        
+      </div>
+    </div>
+    <div class="col-pacotes">
+      <div class="card h-100">
+        <img src="https://levenaviagem.com.br/wp-content/uploads/2016/08/alto-paraisoo-1024x591.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <h6>Pacote de Viagem - Chapada dos Veadeiros 2023</h6>
+          <p><img src="date.png" alt=""> 5 diárias</p><!--date--> 
+          <p><img src="check.png" alt=""> Hospedagem</p> <!-- check-->
+          <p><img src="check.png" alt=""> Café da Manhã</p><!-- check-->
+          <p><img src="check.png" alt=""> Passeios Exclusivos</p><!-- check-->
+          <br><br>
+          <p class="valores">R$ 1200,00</p>
+          <p class="letras-pequenas">(até 12x) + taxas</p><!--letras bem pequenas-->
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="col-pacotes">
+      <div class="card h-100">
+        <img src="https://vemvoar.voeazul.com.br/wp-content/uploads/2018/10/conheca-salvador-e-se-apaixone-pela-capital-baiana.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <h6>Pacote de Viagem - Salvador 2024</h6>
+          <p><img src="date.png" alt=""> 5 diárias</p><!--date--> 
+          <p><img src="check.png" alt=""> Hospedagem</p> <!-- check-->
+          <p><img src="check.png" alt=""> Café da Manhã</p><!-- check-->
+          <p><img src="check.png" alt=""> Passagem Aérea</p><!-- check-->
+          <br><br>
+          <p class="valores">R$ 2300,00</p>
+          <p class="letras-pequenas">(até 12x) + taxas</p><!--letras bem pequenas-->
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <p class="rodape">
+      &copy;AndréAlmeida.
+    </p>
+  </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
